@@ -86,7 +86,7 @@ import 'package:flutter_uniapp/flutter_uniapp.dart';
    * mPOnCloseCallBack: 小程序被关闭事件监听
    * uniMPEventCallBack: 监听小程序发送给宿主的事件
    */
-var result = await FlutterUniapp.init();
+   await FlutterUniapp.init();
 ```
 
 * 唤起UniApp
