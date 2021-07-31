@@ -157,7 +157,7 @@ var result = await FlutterUniapp.init();
 * 获取当前运行小程序appId
 ```
  /**
-   * return: String
+   * return: 当前运行小程序appId
    */
  await FlutterUniapp.getRuningAppid;
 ```
@@ -165,7 +165,7 @@ var result = await FlutterUniapp.init();
 * 获取小程序运行目录
 ```
  /**
-   * return: String
+   * return: 小程序运行目录
    */
  await FlutterUniapp.getAppBasePath;
 ```
