@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.example.flutter_uniapp.view.MiniAppStartLoadingView
+        android:id="@+id/maia_webkit_mini_app_splash_loading"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/maia_webkit_mini_app_splash_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/maia_webkit_mini_app_splash_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/maia_webkit_mini_app_splash_loading"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textColor="#000"
+        android:textSize="16sp" />
+</FrameLayout>
