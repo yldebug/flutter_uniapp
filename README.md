@@ -76,7 +76,7 @@ import 'package:flutter_uniapp/flutter_uniapp.dart';
 ```
  /**
    * 初始化
-   *String? fontSize,
+   * fontSize,
    * fontColor,
    * fontWeight,
    * enableBackground: true表示小程序退出时进入后台 false表示直接退出
