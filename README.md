@@ -76,7 +76,7 @@ import 'package:flutter_uniapp/flutter_uniapp.dart';
 ```
  /**
    * 初始化
-   * fontSize,
+   *String? fontSize,
    * fontColor,
    * fontWeight,
    * enableBackground: true表示小程序退出时进入后台 false表示直接退出
@@ -86,7 +86,7 @@ import 'package:flutter_uniapp/flutter_uniapp.dart';
    * mPOnCloseCallBack: 小程序被关闭事件监听
    * uniMPEventCallBack: 监听小程序发送给宿主的事件
    */
-   await FlutterUniapp.init();
+var result = await FlutterUniapp.init();
 ```
 
 * 唤起UniApp
